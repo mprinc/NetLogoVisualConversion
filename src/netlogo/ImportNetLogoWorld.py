@@ -50,8 +50,9 @@ class ImportNetLogoWorld(object):
         patchesStream = self.textDemultiplexer.getStream(ImportNetLogoWorld.TYPE_PATCHES);
         patchesReader = csv.DictReader(patchesStream);
         for row in patchesReader:
-            print "pxcor: %s, pycor: %s, pcolor: %s" % (row['pxcor'], row['pycor'], row['pcolor']);
-        
+            #print "pxcor: %s, pycor: %s, pcolor: %s" % (row['pxcor'], row['pycor'], row['pcolor']);
+            continue;
+
     def demultiplexedLine(self, line, context):
         #print "DemultiplexedLine started..."
         if(context['type'] == None):

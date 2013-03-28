@@ -5,7 +5,8 @@ from __future__ import division
 
 import argparse;
 
-from netlogo.ImportNetLogoWorld import ImportNetLogoWorld
+from netlogo.ImportNetLogoWorld import ImportNetLogoWorld;
+from netlogo.IGraphNetLogo import IGraphNetLogo;
 
 print("Converting NetLogo World file started ...");
 print("Converting NetLogo World file finished");
@@ -33,3 +34,8 @@ if(args.phase == 'convert'):
         
     importNetLogoWorld = ImportNetLogoWorld();
     importNetLogoWorld.importWorld(args.filein);
+
+    iGraphNetLogo = IGraphNetLogo();
+    iGraphNetLogo.testLoadSaveGraph("data/examples/Gephi/People.graphml", "data/examples/Gephi/iGraph exported - People.graphml");
+    iGraphNetLogo.testCreateSaveGraph("data/examples/Gephi/iGraph exported - Test.graphml");
+    iGraphNetLogo.generateGraph();

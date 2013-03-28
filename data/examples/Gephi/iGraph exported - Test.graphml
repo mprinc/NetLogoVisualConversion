@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_b" for="node" attr.name="b" attr.type="double"/>
+  <key id="v_g" for="node" attr.name="g" attr.type="double"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_r" for="node" attr.name="r" attr.type="double"/>
+  <key id="v_y" for="node" attr.name="y" attr.type="double"/>
+  <key id="v_x" for="node" attr.name="x" attr.type="double"/>
+  <key id="v_id" for="node" attr.name="id" attr.type="double"/>
+  <key id="v_size" for="node" attr.name="size" attr.type="double"/>
+  <key id="e_Edge Id" for="edge" attr.name="Edge Id" attr.type="double"/>
+  <key id="e_label" for="edge" attr.name="label" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <key id="e_Edge Label" for="edge" attr.name="Edge Label" attr.type="string"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_b">0</data>
+      <data key="v_g">0</data>
+      <data key="v_label">Nada</data>
+      <data key="v_r">255</data>
+      <data key="v_y">0</data>
+      <data key="v_x">0</data>
+      <data key="v_id">5</data>
+      <data key="v_size">50</data>
+    </node>
+    <node id="n1">
+      <data key="v_b">0</data>
+      <data key="v_g">0</data>
+      <data key="v_label">Zhenia</data>
+      <data key="v_r">255</data>
+      <data key="v_y">0</data>
+      <data key="v_x">100</data>
+      <data key="v_id">7</data>
+      <data key="v_size">30</data>
+    </node>
+    <node id="n2">
+      <data key="v_b">255</data>
+      <data key="v_g">0</data>
+      <data key="v_label">Sasha</data>
+      <data key="v_r">0</data>
+      <data key="v_y">100</data>
+      <data key="v_x">100</data>
+      <data key="v_id">9</data>
+      <data key="v_size">40</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_Edge Id">57</data>
+      <data key="e_label">Nada-Zhenia-l</data>
+      <data key="e_weight">1</data>
+      <data key="e_Edge Label">Nada-Zhenia</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_Edge Id">79</data>
+      <data key="e_label">Zhenia-Sasha-l</data>
+      <data key="e_weight">5</data>
+      <data key="e_Edge Label">Zhenia-Sasha</data>
+    </edge>
+  </graph>
+</graphml>

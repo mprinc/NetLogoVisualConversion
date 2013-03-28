@@ -1,1 +1,1 @@
-__all__ = ['ImportNetLogoWorld.py']
+__all__ = ['ImportNetLogoWorld.py', 'IGraphNetLogo.py']
