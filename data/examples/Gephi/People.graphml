@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+	<key attr.name="label" attr.type="string" for="node" id="label"/>
+	<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+	<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+	<key attr.name="Edge Id" attr.type="string" for="edge" id="edgeid"/>
+	<key attr.name="r" attr.type="int" for="node" id="r"/>
+	<key attr.name="g" attr.type="int" for="node" id="g"/>
+	<key attr.name="b" attr.type="int" for="node" id="b"/>
+	<key attr.name="x" attr.type="float" for="node" id="x"/>
+	<key attr.name="y" attr.type="float" for="node" id="y"/>
+	<key attr.name="size" attr.type="float" for="node" id="size"/>
+	<graph edgedefault="undirected">
+		<node id="951">
+			<data key="label">Zhenia</data>
+			<data key="size">50.0</data>
+			<data key="r">255</data>
+			<data key="g">0</data>
+			<data key="b">0</data>
+			<data key="x">3.3755465</data>
+			<data key="y">7.2057905</data>
+		</node>
+		<node id="952">
+			<data key="label">Sasha</data>
+			<data key="size">50.0</data>
+			<data key="r">255</data>
+			<data key="g">0</data>
+			<data key="b">0</data>
+			<data key="x">-87.37259</data>
+			<data key="y">235.82513</data>
+		</node>
+		<node id="953">
+			<data key="label">Sinisha</data>
+			<data key="size">50.0</data>
+			<data key="r">255</data>
+			<data key="g">0</data>
+			<data key="b">0</data>
+			<data key="x">-214.8783</data>
+			<data key="y">-177.65051</data>
+		</node>
+		<node id="954">
+			<data key="label">Roza</data>
+			<data key="size">30.0</data>
+			<data key="r">78</data>
+			<data key="g">0</data>
+			<data key="b">254</data>
+			<data key="x">-11.57468</data>
+			<data key="y">-295.71152</data>
+		</node>
+		<node id="955">
+			<data key="label">Nada</data>
+			<data key="size">50.0</data>
+			<data key="r">255</data>
+			<data key="g">0</data>
+			<data key="b">0</data>
+			<data key="x">280.178</data>
+			<data key="y">190.62817</data>
+		</node>
+		<edge source="951" target="952">
+			<data key="edgelabel">ZSa</data>
+			<data key="weight">5.0</data>
+		</edge>
+		<edge source="952" target="955">
+			<data key="edgelabel">NS</data>
+			<data key="weight">2.0</data>
+		</edge>
+		<edge source="953" target="952">
+			<data key="edgelabel">SS</data>
+			<data key="weight">1.0</data>
+		</edge>
+		<edge source="953" target="954">
+			<data key="edgelabel">RS</data>
+			<data key="weight">3.0</data>
+		</edge>
+		<edge source="954" target="951">
+			<data key="edgelabel">ZR</data>
+			<data key="weight">1.0</data>
+		</edge>
+		<edge source="955" target="951">
+			<data key="edgelabel">NZ</data>
+			<data key="weight">2.0</data>
+		</edge>
+		<edge source="955" target="953">
+			<data key="edgelabel">ZSi</data>
+			<data key="weight">1.0</data>
+		</edge>
+	</graph>
+</graphml>

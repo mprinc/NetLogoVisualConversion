@@ -1,0 +1,1 @@
+python src/convert.py --phase convert --filein "data/examples/NetLogo/netlogo world - cliques.csv" --fileout "data/examples/Gephi/conversions/converted - netlogo world - cliques.graphml"

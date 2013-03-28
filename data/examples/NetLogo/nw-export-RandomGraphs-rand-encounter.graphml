@@ -1,0 +1,3330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml">
+<key id="PEN-MODE" for="node"/>
+<key id="YCOR" for="node"/>
+<key id="PEN-SIZE" for="node"/>
+<key id="LABEL" for="node"/>
+<key id="SHAPE" for="node"/>
+<key id="BREED" for="node"/>
+<key id="WHO" for="node"/>
+<key id="HIDDEN?" for="node"/>
+<key id="LABEL-COLOR" for="node"/>
+<key id="HEADING" for="node"/>
+<key id="COLOR" for="node"/>
+<key id="XCOR" for="node"/>
+<key id="SIZE" for="node"/>
+<key id="END1" for="edge"/>
+<key id="TIE-MODE" for="edge"/>
+<key id="END2" for="edge"/>
+<key id="LABEL-COLOR" for="edge"/>
+<key id="THICKNESS" for="edge"/>
+<key id="LABEL" for="edge"/>
+<key id="SHAPE" for="edge"/>
+<key id="BREED" for="edge"/>
+<key id="COLOR" for="edge"/>
+<key id="HIDDEN?" for="edge"/>
+<graph edgedefault="undirected">
+<node id="turtle 41">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">35.2904370283376</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">41</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">145</data>
+<data key="COLOR">15</data>
+<data key="XCOR">18.270998931970574</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 48">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-35.454317850092814</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">48</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">242</data>
+<data key="COLOR">15</data>
+<data key="XCOR">18.138223751531086</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 95">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-36.410448467626416</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">95</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">156</data>
+<data key="COLOR">15</data>
+<data key="XCOR">14.60354452604138</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 27">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-28.26633910740333</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">27</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">206</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-5.220640433717927</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 93">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">33.12064407334828</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">93</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">105</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-1.9443063139570955</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 51">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">37.61661760453489</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">51</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">64</data>
+<data key="COLOR">15</data>
+<data key="XCOR">33.605098964033715</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 31">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">10.58243027066664</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">31</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">201</data>
+<data key="COLOR">15</data>
+<data key="XCOR">45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 1">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-12.562051973160955</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">1</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">88</data>
+<data key="COLOR">15</data>
+<data key="XCOR">21.003635891927978</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 69">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">69</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">157</data>
+<data key="COLOR">15</data>
+<data key="XCOR">28.40962290077385</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 85">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-8.696658587654712</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">85</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">52</data>
+<data key="COLOR">15</data>
+<data key="XCOR">45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 65">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">21.796015347330812</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">65</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">355</data>
+<data key="COLOR">15</data>
+<data key="XCOR">45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 36">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">3.234278496410639</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">36</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">176</data>
+<data key="COLOR">15</data>
+<data key="XCOR">36.82371261196943</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 40">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">40.2840500789317</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">40</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">98</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-32.12158460660571</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 97">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">97</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">231</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-16.104272263272545</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 86">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">86</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">89</data>
+<data key="COLOR">15</data>
+<data key="XCOR">45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 25">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-20.1362918425036</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">25</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">289</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-45.13292014595627</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 56">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">21.887754195255877</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">56</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">53</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-34.18264379773733</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 11">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-25.907634565062963</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">11</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">104</data>
+<data key="COLOR">15</data>
+<data key="XCOR">21.493205912886157</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 16">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">16</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">280</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-25.21153880605756</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 35">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-32.49703979660615</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">35</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">352</data>
+<data key="COLOR">15</data>
+<data key="XCOR">2.5597355646970827</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 66">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">18.913302662879747</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">66</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">333</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-40.50059211826341</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 88">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">23.105903056303386</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">88</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">20</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 70">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">70</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">333</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-28.14896131431288</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 2">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">6.829870415900483</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">2</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">86</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-0.9704020897886955</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 76">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-44.84760786481155</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">76</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">158</data>
+<data key="COLOR">15</data>
+<data key="XCOR">7.63347569082883</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 50">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">15.616744895405372</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">50</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">61</data>
+<data key="COLOR">15</data>
+<data key="XCOR">23.626911960862017</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 37">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">7.2225996590188375</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">37</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">11</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-5.208057360108922</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 81">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">8.889769079747406</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">81</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">118</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 23">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">12.539111910577311</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">23</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">151</data>
+<data key="COLOR">7</data>
+<data key="XCOR">20.963668218288866</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 49">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">49</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">274</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-11.349151157543695</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 43">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-11.191782450129347</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">43</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">355</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-2.4109588884099615</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 21">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-28.476102817615637</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">21</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">229</data>
+<data key="COLOR">15</data>
+<data key="XCOR">2.5642714922577126</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 6">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-19.655861178715472</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">6</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">290</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-11.934120105387665</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 71">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">71</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">39</data>
+<data key="COLOR">15</data>
+<data key="XCOR">12.014369843212533</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 15">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-41.152273196054935</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">15</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">81</data>
+<data key="COLOR">7</data>
+<data key="XCOR">32.09918929555021</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 91">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-32.715626390776286</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">91</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">11</data>
+<data key="COLOR">15</data>
+<data key="XCOR">24.467299016665315</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 82">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">31.246783447751156</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">82</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">177</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-22.07950462058462</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 92">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">92</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">12</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-0.7305113967464583</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 38">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">38</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">149</data>
+<data key="COLOR">15</data>
+<data key="XCOR">17.20848585714876</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 99">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-35.523721549585616</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">99</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">131</data>
+<data key="COLOR">15</data>
+<data key="XCOR">35.867462946364746</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 84">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-29.116405995694958</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">84</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">76</data>
+<data key="COLOR">15</data>
+<data key="XCOR">45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 67">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-36.624850455921504</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">67</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">31</data>
+<data key="COLOR">15</data>
+<data key="XCOR">45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 39">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-40.72245978619136</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">39</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">191</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-5.860829060599481</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 7">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-23.095739089076933</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">7</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">331</data>
+<data key="COLOR">15</data>
+<data key="XCOR">16.513573684598487</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 53">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-33.99175040138908</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">53</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">344</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 33">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">33</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">20</data>
+<data key="COLOR">15</data>
+<data key="XCOR">28.7859127620481</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 10">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-18.842817463598987</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">10</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">154</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-25.011588157349262</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 18">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">18</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">84</data>
+<data key="COLOR">15</data>
+<data key="XCOR">22.53085098922316</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 80">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">33.476468617697066</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">80</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">18</data>
+<data key="COLOR">15</data>
+<data key="XCOR">45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 83">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-25.0665267218487</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">83</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">301</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-12.454022565343157</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 5">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-8.21722869618688</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">5</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">318</data>
+<data key="COLOR">7</data>
+<data key="XCOR">40.61999597704504</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 59">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-1.9262079690205585</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">59</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">185</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 55">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">40.79138193959693</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">55</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">288</data>
+<data key="COLOR">7</data>
+<data key="XCOR">8.59162764963118</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 64">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">3.0032511388069545</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">64</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">40</data>
+<data key="COLOR">15</data>
+<data key="XCOR">24.123637507163544</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 26">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">42.79710341418265</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">26</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">254</data>
+<data key="COLOR">7</data>
+<data key="XCOR">10.138363582828108</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 78">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">78</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">5</data>
+<data key="COLOR">15</data>
+<data key="XCOR">40.27944724239034</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 73">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-11.809734901754343</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">73</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">207</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 79">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">17.67252585352494</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">79</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">278</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 22">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">22</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">82</data>
+<data key="COLOR">15</data>
+<data key="XCOR">15.29762038371415</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 9">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">9</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">161</data>
+<data key="COLOR">15</data>
+<data key="XCOR">22.7453023348911</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 58">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">15.605058910787934</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">58</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">191</data>
+<data key="COLOR">15</data>
+<data key="XCOR">10.395643295741849</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 45">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">14.799717737753323</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">45</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">127</data>
+<data key="COLOR">15</data>
+<data key="XCOR">32.06996084541641</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 47">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-18.538118739687047</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">47</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">160</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-3.3255613518084233</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 94">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-10.604073400539656</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">94</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">115</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-7.978726523196747</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 98">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">98</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">149</data>
+<data key="COLOR">15</data>
+<data key="XCOR">40.29499276044782</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 20">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-17.71343838988651</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">20</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">322</data>
+<data key="COLOR">15</data>
+<data key="XCOR">1.8063260542371815</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 42">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">40.31244326705716</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">42</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">45</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-38.02435765011754</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 60">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-23.16941538336744</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">60</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">319</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 75">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">75</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">272</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 90">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-35.50723592669724</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">90</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">152</data>
+<data key="COLOR">15</data>
+<data key="XCOR">6.072007706372807</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 30">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-23.11382509587671</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">30</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">291</data>
+<data key="COLOR">15</data>
+<data key="XCOR">31.76004622629222</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 13">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">22.985755729375043</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">13</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">101</data>
+<data key="COLOR">15</data>
+<data key="XCOR">13.480153646403826</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 63">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-20.08448429367455</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">63</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">142</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-16.354073685428492</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 24">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">35.695229788638144</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">24</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">318</data>
+<data key="COLOR">15</data>
+<data key="XCOR">29.04230072237282</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 12">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-21.21869845176508</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">12</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">309</data>
+<data key="COLOR">15</data>
+<data key="XCOR">2.5402077091002897</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 8">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">28.23514048912728</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">8</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">250</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-34.318545110076144</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 74">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">45.476544548107775</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">74</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">330</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-19.256440666902847</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 87">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">87</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">138</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-4.078155645102828</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 89">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-40.031423928994755</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">89</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">67</data>
+<data key="COLOR">15</data>
+<data key="XCOR">2.6115220047597223</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 14">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">9.8079858975074</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">14</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">159</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-32.82529949130515</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 3">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">29.53050032325484</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">3</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">353</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 96">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">33.6971875002464</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">96</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">210</data>
+<data key="COLOR">15</data>
+<data key="XCOR">8.646175063296171</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 61">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-23.347885659185653</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">61</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">311</data>
+<data key="COLOR">15</data>
+<data key="XCOR">45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 77">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">43.91595650100319</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">77</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">180</data>
+<data key="COLOR">7</data>
+<data key="XCOR">2.272550868477004</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 29">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">10.353777664421377</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">29</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">301</data>
+<data key="COLOR">15</data>
+<data key="XCOR">18.11980512224448</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 62">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">34.53455022115952</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">62</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">147</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 19">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">20.895780387182175</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">19</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">287</data>
+<data key="COLOR">15</data>
+<data key="XCOR">21.309927789634642</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 0">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">26.154192855249576</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">0</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">65</data>
+<data key="COLOR">15</data>
+<data key="XCOR">20.608534742265775</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 4">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-0.28033945490963275</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">4</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">93</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-10.859211527379218</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 46">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-11.167260602904369</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">46</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">89</data>
+<data key="COLOR">15</data>
+<data key="XCOR">33.360622738108795</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 57">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-22.953311758625986</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">57</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">201</data>
+<data key="COLOR">15</data>
+<data key="XCOR">10.778376653906424</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 32">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">32</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">7</data>
+<data key="COLOR">15</data>
+<data key="XCOR">45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 28">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-35.63154665790655</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">28</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">261</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-8.391525128951091</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 44">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-32.93589113807041</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">44</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">342</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-23.544973716485188</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 68">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-2.357260946571294</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">68</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">298</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-32.91196523402348</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 72">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-32.88070914948733</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">72</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">187</data>
+<data key="COLOR">15</data>
+<data key="XCOR">14.38962633546488</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 54">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">0.02378122752097891</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">54</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">251</data>
+<data key="COLOR">15</data>
+<data key="XCOR">10.009974279987535</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 17">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">26.20867082131776</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">17</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">91</data>
+<data key="COLOR">15</data>
+<data key="XCOR">31.27356258505466</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 34">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">34</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">240</data>
+<data key="COLOR">7</data>
+<data key="XCOR">-45</data>
+<data key="SIZE">5</data>
+</node>
+<node id="turtle 52">
+<data key="PEN-MODE">up</data>
+<data key="YCOR">-45</data>
+<data key="PEN-SIZE">1</data>
+<data key="LABEL"></data>
+<data key="SHAPE">person</data>
+<data key="BREED">turtles</data>
+<data key="WHO">52</data>
+<data key="HIDDEN?">false</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="HEADING">243</data>
+<data key="COLOR">15</data>
+<data key="XCOR">-36.953588747608556</data>
+<data key="SIZE">5</data>
+</node>
+<edge source="turtle 21" target="turtle 47">
+<data key="END1">(turtle 21)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 47)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 14" target="turtle 68">
+<data key="END1">(turtle 14)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 68)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 48" target="turtle 76">
+<data key="END1">(turtle 48)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 76)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 8" target="turtle 42">
+<data key="END1">(turtle 8)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 42)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 57" target="turtle 72">
+<data key="END1">(turtle 57)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 72)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 2" target="turtle 4">
+<data key="END1">(turtle 2)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 4)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 51" target="turtle 80">
+<data key="END1">(turtle 51)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 80)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 48" target="turtle 71">
+<data key="END1">(turtle 48)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 71)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 49" target="turtle 89">
+<data key="END1">(turtle 49)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 89)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 69" target="turtle 98">
+<data key="END1">(turtle 69)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 98)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 32" target="turtle 80">
+<data key="END1">(turtle 32)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 80)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 61" target="turtle 67">
+<data key="END1">(turtle 61)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 67)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 20" target="turtle 94">
+<data key="END1">(turtle 20)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 94)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 21" target="turtle 28">
+<data key="END1">(turtle 21)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 28)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 7" target="turtle 12">
+<data key="END1">(turtle 7)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 12)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 31" target="turtle 45">
+<data key="END1">(turtle 31)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 45)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 28" target="turtle 35">
+<data key="END1">(turtle 28)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 35)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 3" target="turtle 56">
+<data key="END1">(turtle 3)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 56)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 47" target="turtle 83">
+<data key="END1">(turtle 47)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 83)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 17" target="turtle 45">
+<data key="END1">(turtle 17)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 45)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 45" target="turtle 64">
+<data key="END1">(turtle 45)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 64)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 33" target="turtle 91">
+<data key="END1">(turtle 33)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 91)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 27" target="turtle 39">
+<data key="END1">(turtle 27)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 39)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 22" target="turtle 69">
+<data key="END1">(turtle 22)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 69)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 28" target="turtle 83">
+<data key="END1">(turtle 28)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 83)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 57" target="turtle 90">
+<data key="END1">(turtle 57)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 90)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 33" target="turtle 78">
+<data key="END1">(turtle 33)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 78)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 43" target="turtle 83">
+<data key="END1">(turtle 43)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 83)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 1" target="turtle 57">
+<data key="END1">(turtle 1)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 57)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 46" target="turtle 85">
+<data key="END1">(turtle 46)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 85)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 27" target="turtle 47">
+<data key="END1">(turtle 27)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 47)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 80" target="turtle 98">
+<data key="END1">(turtle 80)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 98)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 86" target="turtle 99">
+<data key="END1">(turtle 86)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 99)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 27" target="turtle 94">
+<data key="END1">(turtle 27)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 94)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 70" target="turtle 97">
+<data key="END1">(turtle 70)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 97)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 18" target="turtle 95">
+<data key="END1">(turtle 18)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 95)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 54" target="turtle 64">
+<data key="END1">(turtle 54)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 64)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 30" target="turtle 91">
+<data key="END1">(turtle 30)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 91)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 50" target="turtle 58">
+<data key="END1">(turtle 50)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 58)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 13" target="turtle 96">
+<data key="END1">(turtle 13)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 96)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 9" target="turtle 51">
+<data key="END1">(turtle 9)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 51)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 72" target="turtle 90">
+<data key="END1">(turtle 72)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 90)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 60" target="turtle 73">
+<data key="END1">(turtle 60)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 73)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 21" target="turtle 39">
+<data key="END1">(turtle 21)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 39)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 20" target="turtle 35">
+<data key="END1">(turtle 20)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 35)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 71" target="turtle 89">
+<data key="END1">(turtle 71)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 89)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 27" target="turtle 92">
+<data key="END1">(turtle 27)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 92)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 21" target="turtle 83">
+<data key="END1">(turtle 21)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 83)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 33" target="turtle 48">
+<data key="END1">(turtle 33)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 48)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 24" target="turtle 41">
+<data key="END1">(turtle 24)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 41)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 76" target="turtle 95">
+<data key="END1">(turtle 76)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 95)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 29" target="turtle 45">
+<data key="END1">(turtle 29)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 45)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 17" target="turtle 50">
+<data key="END1">(turtle 17)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 50)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 19" target="turtle 45">
+<data key="END1">(turtle 19)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 45)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 38" target="turtle 95">
+<data key="END1">(turtle 38)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 95)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 18" target="turtle 76">
+<data key="END1">(turtle 18)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 76)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 8" target="turtle 79">
+<data key="END1">(turtle 8)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 79)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 4" target="turtle 43">
+<data key="END1">(turtle 4)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 43)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 16" target="turtle 44">
+<data key="END1">(turtle 16)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 44)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 21" target="turtle 27">
+<data key="END1">(turtle 21)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 27)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 20" target="turtle 27">
+<data key="END1">(turtle 20)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 27)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 35" target="turtle 72">
+<data key="END1">(turtle 35)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 72)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 84" target="turtle 99">
+<data key="END1">(turtle 84)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 99)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 35" target="turtle 95">
+<data key="END1">(turtle 35)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 95)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 3" target="turtle 8">
+<data key="END1">(turtle 3)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 8)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 48" target="turtle 90">
+<data key="END1">(turtle 48)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 90)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 0" target="turtle 24">
+<data key="END1">(turtle 0)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 24)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 19" target="turtle 58">
+<data key="END1">(turtle 19)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 58)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 7" target="turtle 48">
+<data key="END1">(turtle 7)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 48)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 38" target="turtle 72">
+<data key="END1">(turtle 38)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 72)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 1" target="turtle 7">
+<data key="END1">(turtle 1)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 7)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 59" target="turtle 68">
+<data key="END1">(turtle 59)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 68)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 62" target="turtle 88">
+<data key="END1">(turtle 62)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 88)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 38" target="turtle 90">
+<data key="END1">(turtle 38)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 90)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 72" target="turtle 76">
+<data key="END1">(turtle 72)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 76)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 67" target="turtle 84">
+<data key="END1">(turtle 67)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 84)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 47" target="turtle 94">
+<data key="END1">(turtle 47)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 94)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 39" target="turtle 76">
+<data key="END1">(turtle 39)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 76)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 90" target="turtle 95">
+<data key="END1">(turtle 90)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 95)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 27" target="turtle 57">
+<data key="END1">(turtle 27)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 57)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 89" target="turtle 95">
+<data key="END1">(turtle 89)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 95)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 6" target="turtle 20">
+<data key="END1">(turtle 6)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 20)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 12" target="turtle 27">
+<data key="END1">(turtle 12)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 27)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 33" target="turtle 99">
+<data key="END1">(turtle 33)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 99)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 6" target="turtle 43">
+<data key="END1">(turtle 6)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 43)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 13" target="turtle 41">
+<data key="END1">(turtle 13)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 41)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 20" target="turtle 43">
+<data key="END1">(turtle 20)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 43)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 43" target="turtle 54">
+<data key="END1">(turtle 43)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 54)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 20" target="turtle 57">
+<data key="END1">(turtle 20)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 57)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 84" target="turtle 86">
+<data key="END1">(turtle 84)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 86)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 27" target="turtle 89">
+<data key="END1">(turtle 27)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 89)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 20" target="turtle 21">
+<data key="END1">(turtle 20)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 21)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 3" target="turtle 42">
+<data key="END1">(turtle 3)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 42)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 44" target="turtle 83">
+<data key="END1">(turtle 44)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 83)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 27" target="turtle 43">
+<data key="END1">(turtle 27)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 43)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 51" target="turtle 98">
+<data key="END1">(turtle 51)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 98)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 0" target="turtle 45">
+<data key="END1">(turtle 0)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 45)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 11" target="turtle 48">
+<data key="END1">(turtle 11)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 48)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 38" target="turtle 48">
+<data key="END1">(turtle 38)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 48)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 7" target="turtle 30">
+<data key="END1">(turtle 7)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 30)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 30" target="turtle 61">
+<data key="END1">(turtle 30)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 61)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 8" target="turtle 88">
+<data key="END1">(turtle 8)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 88)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 11" target="turtle 72">
+<data key="END1">(turtle 11)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 72)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 78" target="turtle 99">
+<data key="END1">(turtle 78)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 99)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 36" target="turtle 45">
+<data key="END1">(turtle 36)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 45)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 43" target="turtle 57">
+<data key="END1">(turtle 43)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 57)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 17" target="turtle 41">
+<data key="END1">(turtle 17)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 41)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 6" target="turtle 12">
+<data key="END1">(turtle 6)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 12)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 12" target="turtle 43">
+<data key="END1">(turtle 12)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 43)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 36" target="turtle 64">
+<data key="END1">(turtle 36)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 64)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 16" target="turtle 52">
+<data key="END1">(turtle 16)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 52)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 2" target="turtle 54">
+<data key="END1">(turtle 2)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 54)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 12" target="turtle 94">
+<data key="END1">(turtle 12)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 94)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 17" target="turtle 24">
+<data key="END1">(turtle 17)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 24)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 8" target="turtle 82">
+<data key="END1">(turtle 8)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 82)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 0" target="turtle 41">
+<data key="END1">(turtle 0)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 41)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 71" target="turtle 92">
+<data key="END1">(turtle 71)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 92)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 87" target="turtle 97">
+<data key="END1">(turtle 87)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 97)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 48" target="turtle 89">
+<data key="END1">(turtle 48)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 89)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 67" target="turtle 86">
+<data key="END1">(turtle 67)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 86)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 35" target="turtle 76">
+<data key="END1">(turtle 35)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 76)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 11" target="turtle 95">
+<data key="END1">(turtle 11)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 95)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 0" target="turtle 96">
+<data key="END1">(turtle 0)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 96)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 1" target="turtle 46">
+<data key="END1">(turtle 1)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 46)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 45" target="turtle 65">
+<data key="END1">(turtle 45)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 65)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 34" target="turtle 53">
+<data key="END1">(turtle 34)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 53)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 28" target="turtle 90">
+<data key="END1">(turtle 28)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 90)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 14" target="turtle 56">
+<data key="END1">(turtle 14)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 56)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 7" target="turtle 21">
+<data key="END1">(turtle 7)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 21)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 48" target="turtle 57">
+<data key="END1">(turtle 48)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 57)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 13" target="turtle 50">
+<data key="END1">(turtle 13)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 50)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 39" target="turtle 89">
+<data key="END1">(turtle 39)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 89)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 13" target="turtle 29">
+<data key="END1">(turtle 13)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 29)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 6" target="turtle 94">
+<data key="END1">(turtle 6)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 94)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 17" target="turtle 19">
+<data key="END1">(turtle 17)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 19)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 18" target="turtle 48">
+<data key="END1">(turtle 18)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 48)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 53" target="turtle 60">
+<data key="END1">(turtle 53)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 60)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 0" target="turtle 17">
+<data key="END1">(turtle 0)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 17)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 9" target="turtle 24">
+<data key="END1">(turtle 9)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 24)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 11" target="turtle 90">
+<data key="END1">(turtle 11)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 90)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 6" target="turtle 10">
+<data key="END1">(turtle 6)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 10)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 39" target="turtle 90">
+<data key="END1">(turtle 39)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 90)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 21" target="turtle 89">
+<data key="END1">(turtle 21)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 89)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 57" target="turtle 91">
+<data key="END1">(turtle 57)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 91)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 56" target="turtle 79">
+<data key="END1">(turtle 56)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 79)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 11" target="turtle 57">
+<data key="END1">(turtle 11)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 57)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 62" target="turtle 75">
+<data key="END1">(turtle 62)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 75)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 14" target="turtle 81">
+<data key="END1">(turtle 14)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 81)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 3" target="turtle 79">
+<data key="END1">(turtle 3)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 79)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">7</data>
+<data key="HIDDEN?">false</data>
+</edge>
+<edge source="turtle 29" target="turtle 54">
+<data key="END1">(turtle 29)</data>
+<data key="TIE-MODE">none</data>
+<data key="END2">(turtle 54)</data>
+<data key="LABEL-COLOR">9.9</data>
+<data key="THICKNESS">0</data>
+<data key="LABEL"></data>
+<data key="SHAPE">default</data>
+<data key="BREED">links</data>
+<data key="COLOR">15</data>
+<data key="HIDDEN?">false</data>
+</edge>
+</graph>
+</graphml>

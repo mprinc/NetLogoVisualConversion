@@ -1,0 +1,14 @@
+nodedef> name VARCHAR,label VARCHAR,visible BOOLEAN,labelvisible BOOLEAN,width DOUBLE,height DOUBLE,x DOUBLE,y DOUBLE,color VARCHAR,fixed BOOLEAN
+951,"Zhenia",true,true,50.0,50.0,3.3755465,7.2057905,'255,0,0',false
+952,"Sasha",true,true,50.0,50.0,-87.37259,235.82513,'255,0,0',false
+953,"Sinisha",true,true,50.0,50.0,-214.8783,-177.65051,'255,0,0',false
+954,"Roza",true,true,30.0,30.0,-11.57468,-295.71152,'78,0,254',false
+955,"Nada",true,true,50.0,50.0,280.178,190.62817,'255,0,0',false
+edgedef> node1,node2,label VARCHAR,weight DOUBLE,directed BOOLEAN,color VARCHAR,visible BOOLEAN,labelvisible BOOLEAN
+951,952,"ZSa",5.0,false,'255,0,0',true,true
+952,955,"NS",2.0,false,'252,125,79',true,true
+953,952,"SS",1.0,false,'0,0,0',true,true
+953,954,"RS",3.0,false,'253,83,52',true,true
+954,951,"ZR",1.0,false,'78,0,254',true,true
+955,951,"NZ",2.0,false,'252,125,79',true,true
+955,953,"ZSi",1.0,false,'0,0,0',true,true
