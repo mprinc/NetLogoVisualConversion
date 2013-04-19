@@ -1,20 +1,23 @@
 import csv;
 
 from text.TextDemultiplexer import TextDemultiplexer;
- 
+from netlogo.NetLogoWorld import NetLogoWorld;
+
 class ImportNetLogoWorld(object):
     TYPE_TURTLES = "TURTLES";
     TYPE_LINKS = "LINKS";
     TYPE_PATCHES = "PATCHES";
-
+    
     def __init__(self):
         print("ImportNetLogoWorld created");
         self.fileNameIn = None;
         self.fileIn = None;
+        # sub csv tables names in netlogo wolrd file
         self.streamsNames = [ImportNetLogoWorld.TYPE_TURTLES, ImportNetLogoWorld.TYPE_LINKS, ImportNetLogoWorld.TYPE_PATCHES];
         self.demultiplexingContex = TextDemultiplexer.newDict();
         self.demultiplexingContex['type'] = None;
         self.textDemultiplexer = None;
+        self.netLogoWorld = NetLogoWorld();
 
     def importWorld(self, fileNameIn):
         self.fileNameIn = fileNameIn;
@@ -27,34 +30,49 @@ class ImportNetLogoWorld(object):
         
         self.loadComponents();
         print("Importing finished ...");
+        return self.netLogoWorld;
 
     def loadComponents(self):
+        self.netLogoWorld.empty();
+        
+        # get turtles from csv table and push them in NetLogo world
         turtleStream = self.textDemultiplexer.getStream(ImportNetLogoWorld.TYPE_TURTLES);
-        
-        #for line in turtleStream:
-        #    print line;
-        
-        #turtlesReader = csv.reader(turtleStream);
-        #for row in turtlesReader:
-        #    print "who: %s, color: %s" % (row[0], row[1]);
-
         turtlesReader = csv.DictReader(turtleStream);
         for row in turtlesReader:
-            print "who: %s, color: %s" % (row['who'], row['color']);
+            self.netLogoWorld.addTurtleParams(row['who'], row['color'], row['heading'], row['xcor'], row['ycor'], row['shape'], row['label'], \
+                                              row['label-color'], row['breed'], row['hidden?'], row['size'], row['pen-size'], row['pen-mode']);
+        self.netLogoWorld.allTurtlesEntered();
+        print('Turtle 0 :%s' % (str(self.netLogoWorld.turtles[0])));
 
+        # get links from csv table and push them in NetLogo world
         linksStream = self.textDemultiplexer.getStream(ImportNetLogoWorld.TYPE_LINKS);
         linksReader = csv.DictReader(linksStream);
         for row in linksReader:
-            print "end1: %s, end2: %s, color: %s" % (row['end1'], row['end2'], row['color']);
+            self.netLogoWorld.addLinkParams(row['end1'], row['end2'], row['color'], row['label'], row['label-color'], row['hidden?'], row['breed'], \
+                                              row['thickness'], row['shape'], row['tie-mode']);
+        print('Link 0 :%s' % (str(self.netLogoWorld.links[0])));
+        print('Link 0->0 :%s' % (str(self.netLogoWorld.linksMatrix[0][0])));
+        print('Link 0->1 :%s' % (str(self.netLogoWorld.linksMatrix[0][1])));
         
+        # get patches from csv table and push them in NetLogo world
         patchesStream = self.textDemultiplexer.getStream(ImportNetLogoWorld.TYPE_PATCHES);
         patchesReader = csv.DictReader(patchesStream);
         for row in patchesReader:
-            #print "pxcor: %s, pycor: %s, pcolor: %s" % (row['pxcor'], row['pycor'], row['pcolor']);
-            continue;
+            self.netLogoWorld.addPatchParams(row['pxcor'], row['pycor'], row['pcolor'], row['plabel'], row['plabel-color']);
+        self.netLogoWorld.allPatchesEntered();
+        print('Patch 0 :%s' % (str(self.netLogoWorld.patches[0])));
+        print('Patch 0,0 :%s' % (str(self.netLogoWorld.patchesMatrix[0][0])));
+        print('Patch 50,-49 :%s' % (str(self.netLogoWorld.patchesMatrix[50][-49])));
+        print('Patch -50,49 :%s' % (str(self.netLogoWorld.patchesMatrix[-50][49])));
+        print('Patch -50,-50 :%s' % (str(self.netLogoWorld.patchesMatrix[-50][-50])));
+        print('Patch 50,50 :%s' % (str(self.netLogoWorld.patchesMatrix[50][50])));
 
+    # =============
+    # demuplexing netlogo world file that consists of few inner csv table
+    # separated by empty line and then with the name of inner csv table (turtles, ...)
+    # after the name we have csv table rows
     def demultiplexedLine(self, line, context):
-        #print "DemultiplexedLine started..."
+        # if you check the netlogo-world csv export file you will see that before particular infile csv part there is an empty line 
         if(context['type'] == None):
             if(line == ('"'+ImportNetLogoWorld.TYPE_TURTLES+'"')):
                 context['type'] = ImportNetLogoWorld.TYPE_TURTLES;
@@ -74,5 +92,5 @@ class ImportNetLogoWorld(object):
         
         # print line;
         #print "DemultiplexedLine finished..."
-        # direct demultiplexter to put line to stream identified by the value of context['type']
+        # this directs demultiplexter which stream to put the line: stream name is equal to the value of context['type']
         return context['type'];
