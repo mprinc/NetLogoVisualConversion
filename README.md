@@ -166,7 +166,11 @@ python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ign
 
 Please check in `python src/convert.py --help` for all other parameters.
 
-== Screenshoots
+## Screenshoots
+
+### Small Worlds Model
+
+NetLogo model:
 
 ![NetLogo model](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20SmallWorldWS.png "NetLogo Small Worlds model")
 
@@ -175,3 +179,57 @@ is converted into:
 ![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/Gephi%20-%20SmallWorldWS.png "Gephi Small Worlds model")
 
 This model and documentation was adapted by Eytan Bakshy and Lada Adamic from:  Wilensky, U. (2005).  NetLogo Small Worlds model.  http://ccl.northwestern.edu/netlogo/models/SmallWorlds.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
+
+### RandomGraphs (Static-Geo)
+
+NetLogo model:
+
+![NetLogo model](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20SmallWorldWS.png "NetLogo RandomGraphs (Static-Geo) model")
+
+is converted into:
+
+![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20RandomGraphs-static-geo.png "Gephi RandomGraphs (Static-Geo) model")
+
+#### COPYRIGHT AND LICENSE
+
+This model was adapted by Lada Adamic from Uri Wilensky's Giant Component model in NetLogo's models library http://ccl.northwestern.edu/netlogo/models/GiantComponent.
+
+![CC BY-NC-SA 3.0](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+### RandomGraphs (Rand-Encounter)
+
+NetLogo model:
+
+![NetLogo model](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20RandomGraphs-rand-encounter.png "NetLogo RandomGraphs (Rand-Encounter) model")
+
+is converted into:
+
+![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/Gephi%20-%20RandomGraphs-rand-encounter.png "Gephi RandomGraphs (Rand-Encounter) model")
+
+or after applying ForceAtlas 2 layout:
+
+![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/Gephi%20-%20RandomGraphs-rand-encounter%20-%20Forced.png "Gephi RandomGraphs (Rand-Encounter) model - Forced")
+
+#### COPYRIGHT AND LICENSE
+
+This model was adapted by Lada Adamic from Uri Wilensky's Giant Component model in NetLogo's models library http://ccl.northwestern.edu/netlogo/models/GiantComponent.
+
+![CC BY-NC-SA 3.0](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+### Opinion Formation
+
+NetLogo model:
+
+![NetLogo model](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20OpinionFormationModelToy.png "NetLogo RandomGraphs (Rand-Encounter) model")
+
+is converted into:
+
+![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/Gephi%20-%20OpinionFormationModelToy.png "Gephi RandomGraphs (Rand-Encounter) model")
+
+## CREDITS AND REFERENCES
+
+Created by Lada Adamic 2008
