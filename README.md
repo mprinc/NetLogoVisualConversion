@@ -33,7 +33,7 @@ Here are some reasons why you want to use _NetLogoVisualConversion_ script:
     * **nodes positions** are preserved
         * you can keep and observe a specific topology that is created through your NetLogo model
     * **nodes sizes** and **node colors** are preserved
-        * it is very usefull if they **reflect** some internal network characteristics
+        * it is very useful if they **reflect** some internal network characteristics
     * **edge weights** are preserved
     * **breeds** of turtles and edges are preserved
         * you can use that to encode special node/edges **characteristics**, like node opinions, or type of connections between nodes, etc
@@ -45,6 +45,8 @@ Here are some reasons why you want to use _NetLogoVisualConversion_ script:
     * **edges weights** scaling
     * **ignoring edge weight**
     * **prefixing node names**
+
+If you think this is useful thing please star it
 
 ### Nice to have features?
 
@@ -67,7 +69,7 @@ If you think that features from the following list would be nice to have, please
 please do:
 
 * Let me know if you would benefit from it and I will try to make it
-* [fork this project](https://github.com/mprinc/NetLogoVisualConversion/fork) and do work on your on and later ask me to merge
+* [fork this project](https://github.com/mprinc/NetLogoVisualConversion/) and do work on your on and later ask me to merge
 * use this code to make something new
 
 ## Instructions
