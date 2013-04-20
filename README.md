@@ -1,4 +1,4 @@
-'NetLogoVisualConversion' is a tool (written in Python 2.7) that helps you to use your [NetLogo](http://ccl.northwestern.edu/netlogo/) created networks in many Network Visualizing tools (like [Gephi](http://gephi.org/), [Guess](http://graphexploration.cond.org/) or similar)
+**NetLogoVisualConversion** is a tool (written in Python 2.7) that helps you to use your [NetLogo](http://ccl.northwestern.edu/netlogo/) created networks in many Network Visualizing tools (like [Gephi](http://gephi.org/), [Guess](http://graphexploration.cond.org/) or similar)
 
 Outpot of script is a [GraphML](http://graphml.graphdrawing.org/) format script that you can immediatelly import to your favourit visualization model and continue processing, calculation metrics or visualization of course :) 
 
@@ -15,35 +15,35 @@ There is a way to export your NetLogo network through [nw netlogo extension](htt
 
 Here are some reasons why you want to use _NetLogoVisualConversion_ script:
 
-* 'recover all parameters' of your netlogo world in Gephi
+* **recover all parameters** of your netlogo world in Gephi
     * turtles -> nodes
     * links -> edges
-    * 'nodes positions' are preserved
+    * **nodes positions** are preserved
         * you can keep and observe a specific topology that is created through your NetLogo model
-    * 'nodes sizes' and 'node colors' are preserved
-        * it is very usefull if they 'reflect' some internal network characteristics
-    * 'edge weights' are preserved
-    * 'breeds' of turtles and edges are preserved
-        * you can use that to encode special node/edges 'characteristics', like node opinions, or type of connections between nodes, etc
-* 'intermediate igraph model'
-    * if you do a bit more of Python programmming, you can extend script and play with intermediate igraph model that we go through before exporting to 'GraphML' document
-* 'translation parameters'
-    * 'nodes sizes' scaling
-    * 'nodes positions' scalling
-    * 'edges weights' scaling
-    * 'ignoring edge weight'
-    * 'prefixing node names'
+    * **nodes sizes** and **node colors** are preserved
+        * it is very usefull if they **reflect** some internal network characteristics
+    * **edge weights** are preserved
+    * **breeds** of turtles and edges are preserved
+        * you can use that to encode special node/edges **characteristics**, like node opinions, or type of connections between nodes, etc
+* **intermediate igraph model**
+    * if you do a bit more of Python programmming, you can extend script and play with intermediate igraph model that we go through before exporting to **GraphML** document
+* **translation parameters**
+    * **nodes sizes** scaling
+    * **nodes positions** scalling
+    * **edges weights** scaling
+    * **ignoring edge weight**
+    * **prefixing node names**
 
 ### Nice to have features?
 
 If you think that features from the following list would be nice to have, please let me know
 
-* 'GraphML -> NetLogo'
+* **GraphML -> NetLogo**
     * support for importing GraphML model into NetLogo
     * You might need it if you have a complex network that you want to start your simmulation with 
-* 'NetLogo over time/ticks -> dynamic (longitudinal) netowrk'
+* **NetLogo over time/ticks -> dynamic (longitudinal) netowrk**
     * it will track your network (turtles+links) changes over time and record it into dynamic network that you can visualize/animate in Gephi, etc
-* 'Real-time visualizing of currently running NetLogo model in Gephi' (or other compatible tool)
+* **Real-time visualizing of currently running NetLogo model in Gephi** (or other compatible tool)
     * it will provide a way to make a real-time connection between running NetLogo model and Gephi
     * any change hapening in NetLogo would in the real time update in your graph in Gephi 
     * Ask for this if you REALY, REALY need it, and please
@@ -66,7 +66,7 @@ You need to have:
 
 ### Conversion
 
-You can download script by clicking on 'ZIP' button on the top of the page or simple following the link:
+You can download script by clicking on **ZIP** button on the top of the page or simple following the link:
 
 [Download link](https://github.com/mprinc/NetLogoVisualConversion/archive/master.zip)
 
@@ -108,10 +108,10 @@ python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_mul
 ```
 
 converts NetLogo network *"data/examples/NetLogo/netlogo world - cliques.csv"* into *"data/examples/Gephi/conversions/converted - netlogo world - cliques.graphml"* with few modifications:
-* `--node-name-prefix "N_"` adds the "N_" prefix to each node name
+* `--node-name-prefix "N_"` adds the **N_** prefix to each node name
 * `--node_size_multiplyer 5` multiplies the size of each node by 5
 * ` --edge_weight_multiplyer 3` multiplies the weight of each edge by 3
-* ' --coord_multiplyer 10' multiplies the X and Y coordinate (scale up) of each node by 10
+* ` --coord_multiplyer 10` multiplies the X and Y coordinate (scale up) of each node by 10
 
 ```bash
 python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ignore true --coord_multiplyer 10 \
