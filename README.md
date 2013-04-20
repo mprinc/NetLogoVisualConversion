@@ -187,10 +187,10 @@ This model and documentation was adapted by Eytan Bakshy and Lada Adamic from:  
 ---
 
 NetLogo model:
-![NetLogo model](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20SmallWorldWS.png "NetLogo RandomGraphs (Static-Geo) model")
+![NetLogo model](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20RandomGraphs-static-geo.png "NetLogo RandomGraphs (Static-Geo) model")
 
 is converted into:
-![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20RandomGraphs-static-geo.png "Gephi RandomGraphs (Static-Geo) model")
+![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/Gephi%20-%20RandomGraphs-static-geo.png "Gephi RandomGraphs (Static-Geo) model")
 
 #### COPYRIGHT AND LICENSE
 
