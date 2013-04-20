@@ -1,4 +1,11 @@
-NetLogoVisualConversion is a python 2.7 script that helps you to use your [NetLogo](http://ccl.northwestern.edu/netlogo/) created networks in many Network Visualizing tools (like [Gephi](http://gephi.org/), [Guess](http://graphexploration.cond.org/) or similar)
+_NetLogoVisualConversion_ is a Python 2.7 script that helps you to use your [NetLogo](http://ccl.northwestern.edu/netlogo/) created networks in many Network Visualizing tools (like [Gephi](http://gephi.org/), [Guess](http://graphexploration.cond.org/) or similar)
+
+There is a way to export your NetLogo network through [nw netlogo extension](https://github.com/NetLogo/NetLogo/wiki/Extensions#nw-network-extension), but there are many reasons why it doesn't do acceptable enough work:
+* you need to know NetLogo and be invisive to NetLogo model in order to export network
+* position of turtles/nodes is "random"
+* colors are not preserved
+* additional parameters stored in turtles, links are not preserved
+* etc
 
 ## WHY
 * recover all parameters of your netlogo world in Gephi
