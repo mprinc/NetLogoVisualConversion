@@ -133,7 +133,7 @@ If you run it simply as `python src/convert.py` you will get first missing param
 Here are some examples of calling script:
 
 ```bash
-`python src/convert.py --phase convert --filein "data/examples/NetLogo/netlogo world - cliques.csv" \
+python src/convert.py --phase convert --filein "data/examples/NetLogo/netlogo world - cliques.csv" \
     --fileout "data/examples/Gephi/conversions/converted - netlogo world - cliques.graphml"
 ```
 converts (`--phase convert`) NetLogo network *"data/examples/NetLogo/netlogo world - cliques.csv"* into *"data/examples/Gephi/conversions/converted - netlogo world - cliques.graphml"*
@@ -177,6 +177,11 @@ python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ign
 python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ignore true --coord_multiplyer 10 \
     --node-name-prefix "N_" --filein "data/examples/NetLogo/netlogo world - RandomGraphs-rand-encounter.csv" \
     --fileout "data/examples/Gephi/conversions/converted - netlogo world - RandomGraphs-rand-encounter.graphml"
+```
+
+```bash
+python src/convert.py --phase convert --filein "data/netlogo world - BADiffusion.csv" \n
+    --fileout "data/converted - netlogo world - BADiffusion.graphml" --edge_weight_ignore true 
 ```
 
 Please check in `python src/convert.py --help` for all other parameters.
