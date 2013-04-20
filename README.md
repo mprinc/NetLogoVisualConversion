@@ -1,3 +1,5 @@
+NetLogoVisualConversion is a python 2.7 script that helps you to use your [NetLogo](http://ccl.northwestern.edu/netlogo/) created networks in many Network Visualizing tools (like [Gephi](http://gephi.org/), [Guess](http://graphexploration.cond.org/) or similar)
+
 ## WHY
 * recover all parameters of your netlogo world in Gephi
     * turtles -> nodes
