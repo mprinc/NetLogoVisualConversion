@@ -25,9 +25,22 @@ If you think that features from the following list would be nice to have, please
 
 ## Examples
 
-This is a way of calling script:
+You can download script by clicking on 'ZIP' button on the top of the page or simple following the link:
 
-`python src/convert.py --phase convert --filein "data/examples/NetLogo/netlogo world - cliques.csv" --fileout "data/examples/Gephi/conversions/converted - netlogo world - cliques.graphml"`
+[Download link](https://github.com/mprinc/NetLogoVisualConversion/archive/master.zip)
+
+after downloading script, unpack it and run it in the following way:
+
+`python src/convert.py`
+
+You will see a list of parameters you can provide and a list of necessary parameters.
+
+Here are some examples of calling script:
+
+```bash
+`python src/convert.py --phase convert --filein "data/examples/NetLogo/netlogo world - cliques.csv" \
+    --fileout "data/examples/Gephi/conversions/converted - netlogo world - cliques.graphml"
+```
 
 ```bash
 python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_multiplyer 3 --edge_weight_ignore true --coord_multiplyer 10 \
