@@ -1,4 +1,6 @@
-**NetLogoVisualConversion** is a tool (written in Python 2.7) that helps you to use your [NetLogo](http://ccl.northwestern.edu/netlogo/) created networks in many Network Visualizing tools (like [Gephi](http://gephi.org/), [Guess](http://graphexploration.cond.org/) or similar)
+*## Introduction
+
+*NetLogoVisualConversion** is a tool (written in Python 2.7) that helps you to use your [NetLogo](http://ccl.northwestern.edu/netlogo/) created networks in many Network Visualizing tools (like [Gephi](http://gephi.org/), [Guess](http://graphexploration.cond.org/) or similar)
 
 Outpot of script is a [GraphML](http://graphml.graphdrawing.org/) format script that you can immediatelly import to your favourit visualization model and continue processing, calculation metrics or visualization of course :) 
 
@@ -60,6 +62,7 @@ please do:
 ### Prerequisites
 
 You need to have:
+
 1. [NetLogo](http://ccl.northwestern.edu/netlogo/), unless you have NetLogo world already exported
 2. [Python 2.7](http://www.python.org/getit/) installed, it should work with Python 3 as well
 3. [iGraph package](http://igraph.sourceforge.net/)
@@ -92,6 +95,13 @@ run the tool in the following way:
 `python src/convert.py --help`
 
 You will see a list of parameters you can provide.
+
+### Import in Gephi
+
+1. Start Gephi
+2. Choose import from menu: File > Open ...
+    1. Choose file you want to import
+    2. Unselect **Auto-scale** checkbox (otherwise node sizes will be lost, etc)
 
 ## Examples
 
@@ -134,4 +144,34 @@ python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ign
 Similar to the previous example except that it use different files and by
 *  `--edge_weight_ignore true` removes edge weight in resulting graph
 
+Here are the conversion instructions for the rest of netlogo world examples you can find in `data/examples/NetLogo/` folder.
+
+```bash
+python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_multiplyer 3 --coord_multiplyer 10 \
+    --node-name-prefix "N_" --filein "data/examples/NetLogo/netlogo world - OpinionFormationModelToy.csv" \
+    --fileout "data/examples/Gephi/conversions/converted - netlogo world - OpinionFormationModelToy.graphml"
+```
+
+```bash
+python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ignore true --coord_multiplyer 10 \
+    --node-name-prefix "N_" --filein "data/examples/NetLogo/netlogo world - RandomGraphs-static-geo.csv" \
+    --fileout "data/examples/Gephi/conversions/converted - netlogo world - RandomGraphs-static-geo.graphml"
+```
+
+```bash
+python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ignore true --coord_multiplyer 10 \
+    --node-name-prefix "N_" --filein "data/examples/NetLogo/netlogo world - RandomGraphs-rand-encounter.csv" \
+    --fileout "data/examples/Gephi/conversions/converted - netlogo world - RandomGraphs-rand-encounter.graphml"
+```
+
 Please check in `python src/convert.py --help` for all other parameters.
+
+== Screenshoots
+
+![NetLogo model](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20SmallWorldWS.png "NetLogo Small Worlds model")
+
+is converted into:
+
+![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/Gephi%20-%20SmallWorldWS.png "Gephi Small Worlds model")
+
+This model and documentation was adapted by Eytan Bakshy and Lada Adamic from:  Wilensky, U. (2005).  NetLogo Small Worlds model.  http://ccl.northwestern.edu/netlogo/models/SmallWorlds.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.

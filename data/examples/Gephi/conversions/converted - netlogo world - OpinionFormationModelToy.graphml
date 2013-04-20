@@ -18,235 +18,235 @@
   <key id="e_Edge Label" for="edge" attr.name="Edge Label" attr.type="string"/>
   <graph id="G" edgedefault="undirected">
     <node id="n0">
-      <data key="v_b">190</data>
-      <data key="v_g">141</data>
+      <data key="v_b">169</data>
+      <data key="v_g">93</data>
       <data key="v_label">N_0</data>
-      <data key="v_r">45</data>
-      <data key="v_y">-9.66115</data>
-      <data key="v_x">-90.4377</data>
+      <data key="v_r">52</data>
+      <data key="v_y">-263.512</data>
+      <data key="v_x">48.8396</data>
       <data key="v_id">0</data>
-      <data key="v_size">5</data>
+      <data key="v_size">20</data>
     </node>
     <node id="n1">
-      <data key="v_b">60</data>
-      <data key="v_g">176</data>
+      <data key="v_b">41</data>
+      <data key="v_g">50</data>
       <data key="v_label">N_1</data>
-      <data key="v_r">89</data>
-      <data key="v_y">-33.3162</data>
-      <data key="v_x">-66.8464</data>
+      <data key="v_r">215</data>
+      <data key="v_y">-260.972</data>
+      <data key="v_x">175.822</data>
       <data key="v_id">1</data>
-      <data key="v_size">5</data>
+      <data key="v_size">20</data>
     </node>
     <node id="n2">
-      <data key="v_b">72</data>
-      <data key="v_g">110</data>
+      <data key="v_b">169</data>
+      <data key="v_g">93</data>
       <data key="v_label">N_2</data>
-      <data key="v_r">157</data>
-      <data key="v_y">-18.9302</data>
-      <data key="v_x">-37.3675</data>
+      <data key="v_r">52</data>
+      <data key="v_y">-141.339</data>
+      <data key="v_x">-0.945384</data>
       <data key="v_id">2</data>
-      <data key="v_size">5</data>
+      <data key="v_size">20</data>
     </node>
     <node id="n3">
       <data key="v_b">41</data>
       <data key="v_g">50</data>
       <data key="v_label">N_3</data>
       <data key="v_r">215</data>
-      <data key="v_y">12.5187</data>
-      <data key="v_x">-41.3417</data>
+      <data key="v_y">-62.6266</data>
+      <data key="v_x">96.6255</data>
       <data key="v_id">3</data>
-      <data key="v_size">5</data>
+      <data key="v_size">30</data>
     </node>
     <node id="n4">
-      <data key="v_b">60</data>
-      <data key="v_g">176</data>
+      <data key="v_b">41</data>
+      <data key="v_g">50</data>
       <data key="v_label">N_4</data>
-      <data key="v_r">89</data>
-      <data key="v_y">19.119</data>
-      <data key="v_x">-73.4727</data>
+      <data key="v_r">215</data>
+      <data key="v_y">-137.62</data>
+      <data key="v_x">204.47</data>
       <data key="v_id">4</data>
-      <data key="v_size">5</data>
+      <data key="v_size">20</data>
     </node>
     <node id="n5">
-      <data key="v_b">21</data>
-      <data key="v_g">106</data>
+      <data key="v_b">41</data>
+      <data key="v_g">50</data>
       <data key="v_label">N_5</data>
-      <data key="v_r">241</data>
-      <data key="v_y">18.4226</data>
-      <data key="v_x">5.37749</data>
+      <data key="v_r">215</data>
+      <data key="v_y">107.163</data>
+      <data key="v_x">-28.9676</data>
       <data key="v_id">5</data>
-      <data key="v_size">5</data>
+      <data key="v_size">20</data>
     </node>
     <node id="n6">
-      <data key="v_b">21</data>
-      <data key="v_g">106</data>
+      <data key="v_b">41</data>
+      <data key="v_g">50</data>
       <data key="v_label">N_6</data>
-      <data key="v_r">241</data>
-      <data key="v_y">-13.0262</data>
-      <data key="v_x">9.35171</data>
+      <data key="v_r">215</data>
+      <data key="v_y">28.469</data>
+      <data key="v_x">-126.555</data>
       <data key="v_id">6</data>
-      <data key="v_size">5</data>
+      <data key="v_size">15</data>
     </node>
     <node id="n7">
-      <data key="v_b">106</data>
-      <data key="v_g">27</data>
+      <data key="v_b">169</data>
+      <data key="v_g">93</data>
       <data key="v_label">N_7</data>
-      <data key="v_r">167</data>
-      <data key="v_y">32.8087</data>
-      <data key="v_x">34.8564</data>
+      <data key="v_r">52</data>
+      <data key="v_y">103.516</data>
+      <data key="v_x">-234.375</data>
       <data key="v_id">7</data>
-      <data key="v_size">5</data>
+      <data key="v_size">15</data>
     </node>
     <node id="n8">
-      <data key="v_b">60</data>
-      <data key="v_g">176</data>
+      <data key="v_b">169</data>
+      <data key="v_g">93</data>
       <data key="v_label">N_8</data>
-      <data key="v_r">89</data>
-      <data key="v_y">9.15363</data>
-      <data key="v_x">58.4477</data>
+      <data key="v_r">52</data>
+      <data key="v_y">226.857</data>
+      <data key="v_x">-205.678</data>
       <data key="v_id">8</data>
-      <data key="v_size">5</data>
+      <data key="v_size">15</data>
     </node>
     <node id="n9">
-      <data key="v_b">60</data>
-      <data key="v_g">176</data>
+      <data key="v_b">169</data>
+      <data key="v_g">93</data>
       <data key="v_label">N_9</data>
-      <data key="v_r">89</data>
-      <data key="v_y">-19.6266</data>
-      <data key="v_x">41.4827</data>
+      <data key="v_r">52</data>
+      <data key="v_y">229.347</data>
+      <data key="v_x">-78.6954</data>
       <data key="v_id">9</data>
-      <data key="v_size">5</data>
+      <data key="v_size">15</data>
     </node>
     <edge source="n0" target="n1">
       <data key="e_Edge Id">1</data>
       <data key="e_label">0-1</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">0-1</data>
     </edge>
     <edge source="n0" target="n2">
       <data key="e_Edge Id">2</data>
       <data key="e_label">0-2</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">0-2</data>
     </edge>
     <edge source="n0" target="n3">
       <data key="e_Edge Id">3</data>
       <data key="e_label">0-3</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">3</data>
       <data key="e_Edge Label">0-3</data>
     </edge>
     <edge source="n0" target="n4">
       <data key="e_Edge Id">4</data>
       <data key="e_label">0-4</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">0-4</data>
     </edge>
     <edge source="n1" target="n2">
       <data key="e_Edge Id">1002</data>
       <data key="e_label">1-2</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">1-2</data>
     </edge>
     <edge source="n1" target="n3">
       <data key="e_Edge Id">1003</data>
       <data key="e_label">1-3</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">3</data>
       <data key="e_Edge Label">1-3</data>
     </edge>
     <edge source="n1" target="n4">
       <data key="e_Edge Id">1004</data>
       <data key="e_label">1-4</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">1-4</data>
     </edge>
     <edge source="n2" target="n3">
       <data key="e_Edge Id">2003</data>
       <data key="e_label">2-3</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">3</data>
       <data key="e_Edge Label">2-3</data>
     </edge>
     <edge source="n2" target="n4">
       <data key="e_Edge Id">2004</data>
       <data key="e_label">2-4</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">2-4</data>
     </edge>
     <edge source="n2" target="n6">
       <data key="e_Edge Id">2006</data>
       <data key="e_label">2-6</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">2-6</data>
     </edge>
     <edge source="n3" target="n4">
       <data key="e_Edge Id">3004</data>
       <data key="e_label">3-4</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">3</data>
       <data key="e_Edge Label">3-4</data>
     </edge>
     <edge source="n3" target="n5">
       <data key="e_Edge Id">3005</data>
       <data key="e_label">3-5</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">3</data>
       <data key="e_Edge Label">3-5</data>
     </edge>
     <edge source="n5" target="n6">
       <data key="e_Edge Id">5006</data>
       <data key="e_label">5-6</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">5-6</data>
     </edge>
     <edge source="n5" target="n7">
       <data key="e_Edge Id">5007</data>
       <data key="e_label">5-7</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">5-7</data>
     </edge>
     <edge source="n5" target="n8">
       <data key="e_Edge Id">5008</data>
       <data key="e_label">5-8</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">5-8</data>
     </edge>
     <edge source="n5" target="n9">
       <data key="e_Edge Id">5009</data>
       <data key="e_label">5-9</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">5-9</data>
     </edge>
     <edge source="n6" target="n7">
       <data key="e_Edge Id">6007</data>
       <data key="e_label">6-7</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">6-7</data>
     </edge>
     <edge source="n6" target="n8">
       <data key="e_Edge Id">6008</data>
       <data key="e_label">6-8</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">6-8</data>
     </edge>
     <edge source="n6" target="n9">
       <data key="e_Edge Id">6009</data>
       <data key="e_label">6-9</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">6-9</data>
     </edge>
     <edge source="n7" target="n8">
       <data key="e_Edge Id">7008</data>
       <data key="e_label">7-8</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">7-8</data>
     </edge>
     <edge source="n7" target="n9">
       <data key="e_Edge Id">7009</data>
       <data key="e_label">7-9</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">7-9</data>
     </edge>
     <edge source="n8" target="n9">
       <data key="e_Edge Id">8009</data>
       <data key="e_label">8-9</data>
-      <data key="e_weight">0</data>
+      <data key="e_weight">1.5</data>
       <data key="e_Edge Label">8-9</data>
     </edge>
   </graph>
