@@ -28,25 +28,25 @@ var MyView = BaseView.extend({
 
 ## WHY
 * recover all parameters of your netlogo world in Gephi
-** turtles -> nodes
-** links -> edges
-** nodes positions are preserved
-*** you can keep and observe a specific topology that is created through NetLogo model
-** nodes sizes and colors are preserver
-*** it is very usefull if they reflect some internal network characteristics
-** edge weights are preserved
-** breeds of turtles and edges are preserved
-*** you can use that to encode special node/edges characteristics, like opinions, or type of connections between nodes, etc
+    * turtles -> nodes
+    * links -> edges
+    * nodes positions are preserved
+        * you can keep and observe a specific topology that is created through NetLogo model
+    * nodes sizes and colors are preserver
+        * it is very usefull if they reflect some internal network characteristics
+    * edge weights are preserved
+    * breeds of turtles and edges are preserved
+        * you can use that to encode special node/edges characteristics, like opinions, or type of connections between nodes, etc
 * igraph model
-** if you did a bit of programmming you can extend script and play with intermediate igraph model that we go through before exporting to GraphML document
+    * if you did a bit of programmming you can extend script and play with intermediate igraph model that we go through before exporting to GraphML document
 * transition parameters
-** nodes sizes scaling
-** nodes positions scalling
-** edges weights scaling
-** ignoring edge weight
-** prefixing node names
+    * nodes sizes scaling
+    * nodes positions scalling
+    * edges weights scaling
+    * ignoring edge weight
+    * prefixing node names
 
-=== Nice to have features?
+### Nice to have features?
 If you think that features from the following list would be nice to have, please let me know
 * GraphML -> NetLogo
 * NetLogo time -> GraphML dynamic
