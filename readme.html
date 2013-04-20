@@ -1,14 +1,4 @@
-python src/convert.py --phase convert --filein "data/examples/NetLogo/netlogo world - cliques.csv" --fileout "data/examples/Gephi/conversions/converted - netlogo world - cliques.graphml"
-
-python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_multiplyer 3 --edge_weight_ignore true --coord_multiplyer 10 \
-    --node-name-prefix "N_" --filein "data/examples/NetLogo/netlogo world - cliques.csv" \
-    --fileout "data/examples/Gephi/conversions/converted - netlogo world - cliques.graphml"
-
-python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_multiplyer 3 --edge_weight_ignore true --coord_multiplyer 10 \
-    --node-name-prefix "N_" --filein "data/examples/NetLogo/netlogo world - SmallWorldWS.csv" \
-    --fileout "data/examples/Gephi/conversions/converted - netlogo world - SmallWorldWS.graphml"
-
-WHY
+<h1>WHY</h1>
 ---------
 - recover all parameters of your netlogo world in Gephi
     - turtles -> nodes
@@ -33,3 +23,14 @@ Nice to have?
 -------------------------
 - GraphML -> NetLogo
 - NetLogo time -> GraphML dynamic
+
+<h1>Examples</h1>
+python src/convert.py --phase convert --filein "data/examples/NetLogo/netlogo world - cliques.csv" --fileout "data/examples/Gephi/conversions/converted - netlogo world - cliques.graphml"
+
+python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_multiplyer 3 --edge_weight_ignore true --coord_multiplyer 10 \
+    --node-name-prefix "N_" --filein "data/examples/NetLogo/netlogo world - cliques.csv" \
+    --fileout "data/examples/Gephi/conversions/converted - netlogo world - cliques.graphml"
+
+python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_multiplyer 3 --edge_weight_ignore true --coord_multiplyer 10 \
+    --node-name-prefix "N_" --filein "data/examples/NetLogo/netlogo world - SmallWorldWS.csv" \
+    --fileout "data/examples/Gephi/conversions/converted - netlogo world - SmallWorldWS.graphml"
