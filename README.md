@@ -1,6 +1,6 @@
-*## Introduction
+## Introduction
 
-*NetLogoVisualConversion** is a tool (written in Python 2.7) that helps you to use your [NetLogo](http://ccl.northwestern.edu/netlogo/) created networks in many Network Visualizing tools (like [Gephi](http://gephi.org/), [Guess](http://graphexploration.cond.org/) or similar)
+**NetLogoVisualConversion** is a tool (written in Python 2.7) that helps you to use your [NetLogo](http://ccl.northwestern.edu/netlogo/) created networks in many Network Visualizing tools (like [Gephi](http://gephi.org/), [Guess](http://graphexploration.cond.org/) or similar)
 
 Outpot of script is a [GraphML](http://graphml.graphdrawing.org/) format script that you can immediatelly import to your favourit visualization model and continue processing, calculation metrics or visualization of course :) 
 
@@ -170,24 +170,26 @@ Please check in `python src/convert.py --help` for all other parameters.
 
 ### Small Worlds Model
 
-NetLogo model:
+---
 
+NetLogo model:
 ![NetLogo model](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20SmallWorldWS.png "NetLogo Small Worlds model")
 
 is converted into:
-
 ![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/Gephi%20-%20SmallWorldWS.png "Gephi Small Worlds model")
+
+#### COPYRIGHT AND LICENSE
 
 This model and documentation was adapted by Eytan Bakshy and Lada Adamic from:  Wilensky, U. (2005).  NetLogo Small Worlds model.  http://ccl.northwestern.edu/netlogo/models/SmallWorlds.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
 ### RandomGraphs (Static-Geo)
 
-NetLogo model:
+---
 
+NetLogo model:
 ![NetLogo model](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20SmallWorldWS.png "NetLogo RandomGraphs (Static-Geo) model")
 
 is converted into:
-
 ![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20RandomGraphs-static-geo.png "Gephi RandomGraphs (Static-Geo) model")
 
 #### COPYRIGHT AND LICENSE
@@ -200,16 +202,15 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 
 ### RandomGraphs (Rand-Encounter)
 
-NetLogo model:
+---
 
+NetLogo model:
 ![NetLogo model](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20RandomGraphs-rand-encounter.png "NetLogo RandomGraphs (Rand-Encounter) model")
 
 is converted into:
-
 ![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/Gephi%20-%20RandomGraphs-rand-encounter.png "Gephi RandomGraphs (Rand-Encounter) model")
 
 or after applying ForceAtlas 2 layout:
-
 ![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/Gephi%20-%20RandomGraphs-rand-encounter%20-%20Forced.png "Gephi RandomGraphs (Rand-Encounter) model - Forced")
 
 #### COPYRIGHT AND LICENSE
@@ -222,14 +223,14 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 
 ### Opinion Formation
 
-NetLogo model:
+---
 
+NetLogo model:
 ![NetLogo model](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20OpinionFormationModelToy.png "NetLogo RandomGraphs (Rand-Encounter) model")
 
 is converted into:
-
 ![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/Gephi%20-%20OpinionFormationModelToy.png "Gephi RandomGraphs (Rand-Encounter) model")
 
-## CREDITS AND REFERENCES
+#### CREDITS AND REFERENCES
 
 Created by Lada Adamic 2008
