@@ -2,10 +2,14 @@
 
 **NetLogoVisualConversion** is a tool (written in Python 2.7) that helps you to use your [NetLogo](http://ccl.northwestern.edu/netlogo/) created networks in many Network Visualizing tools (like [Gephi](http://gephi.org/), [Guess](http://graphexploration.cond.org/) or similar)
 
+### Example
+
 NetLogo model:
+
 ![NetLogo model](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/NetLogo%20-%20RandomGraphs-static-geo%20-%20small.png "NetLogo RandomGraphs (Static-Geo) model")
 
 is converted into:
+
 ![Gephi graph](https://dl.dropboxusercontent.com/u/4976813/tools/NetLogoVisualConversion/Gephi%20-%20RandomGraphs-static-geo%20-%20small.png "Gephi RandomGraphs (Static-Geo) model")
 
 Outpot of script is a [GraphML](http://graphml.graphdrawing.org/) format script that you can immediatelly import to your favourit visualization model and continue processing, calculation metrics or visualization of course :) 
@@ -34,10 +38,10 @@ Here are some reasons why you want to use _NetLogoVisualConversion_ script:
     * **breeds** of turtles and edges are preserved
         * you can use that to encode special node/edges **characteristics**, like node opinions, or type of connections between nodes, etc
 * **intermediate igraph model**
-    * if you do a bit more of Python programmming, you can extend script and play with intermediate igraph model that we go through before exporting to **GraphML** document
+    * if you do a bit more of Python programming, you can extend script and play with intermediate igraph model that we go through before exporting to **GraphML** document
 * **translation parameters**
     * **nodes sizes** scaling
-    * **nodes positions** scalling
+    * **nodes positions** scaling
     * **edges weights** scaling
     * **ignoring edge weight**
     * **prefixing node names**
@@ -46,20 +50,23 @@ Here are some reasons why you want to use _NetLogoVisualConversion_ script:
 
 If you think that features from the following list would be nice to have, please let me know
 
+* **Online tool**
+    * You wouldn't need to install any tool on your machine
+    * you would be able to upload NetLogo world model and download visualized graph
 * **GraphML -> NetLogo**
     * support for importing GraphML model into NetLogo
-    * You might need it if you have a complex network that you want to start your simmulation with 
+    * You might need it if you have a complex network that you want to start your simulation with 
 * **NetLogo over time/ticks -> dynamic (longitudinal) netowrk**
     * it will track your network (turtles+links) changes over time and record it into dynamic network that you can visualize/animate in Gephi, etc
 * **Real-time visualizing of currently running NetLogo model in Gephi** (or other compatible tool)
     * it will provide a way to make a real-time connection between running NetLogo model and Gephi
-    * any change hapening in NetLogo would in the real time update in your graph in Gephi 
+    * any change happening in NetLogo would in the real time update in your graph in Gephi 
     * Ask for this if you REALY, REALY need it, and please
-    * Eplain why do you need it :)
+    * Please explain why do you need it :)
 
 please do:
 
-* Let me know you would benefite from it and I will try to make it
+* Let me know if you would benefit from it and I will try to make it
 * [fork this project](https://github.com/mprinc/NetLogoVisualConversion/fork) and do work on your on and later ask me to merge
 * use this code to make something new
 
@@ -75,7 +82,7 @@ You need to have:
 
 ### NetLogo Export
 
-Exporting NetLogo World from NetLogo is straight forward:
+Exporting NetLogo World from NetLogo is straightforward:
 
 1. Open NetLogo
 2. Load NetLogo model
@@ -172,7 +179,7 @@ python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ign
 
 Please check in `python src/convert.py --help` for all other parameters.
 
-## Screenshoots
+## Screenshots
 
 ### Small Worlds Model
 
