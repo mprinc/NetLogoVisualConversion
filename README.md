@@ -88,7 +88,7 @@ is converted into:
 
 This model and documentation was adapted by Eytan Bakshy and Lada Adamic from:  Wilensky, U. (2005).  NetLogo Small Worlds model.  http://ccl.northwestern.edu/netlogo/models/SmallWorlds.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.
 
-### Diffusion through networks generated through a process of growth and preferential attachment (Barbasi-Albert) 
+### Diffusion on networks generated through a process of growth and preferential attachment (Barbasi-Albert) 
 
 ---
 
