@@ -2,7 +2,7 @@
 
 Outpot of script is a [GraphML](http://graphml.graphdrawing.org/) format script that you can immediatelly import to your favourit visualization model and continue processing, calculation metrics or visualization of course :) 
 
-=== Other solutions
+### Other solutions
 
 There is a way to export your NetLogo network through [nw netlogo extension](https://github.com/NetLogo/NetLogo/wiki/Extensions#nw-network-extension), but there are many reasons why it doesn't do acceptable enough work:
 * you need to know NetLogo and be invisive to NetLogo model in order to export network
@@ -60,20 +60,32 @@ please do:
 ### Prerequisites
 
 You need to have:
-1.[NetLogo](http://ccl.northwestern.edu/netlogo/), unless you have NetLogo world already exported
+1. [NetLogo](http://ccl.northwestern.edu/netlogo/), unless you have NetLogo world already exported
 2. [Python 2.7](http://www.python.org/getit/) installed, it should work with Python 3 as well
 3. [iGraph package](http://igraph.sourceforge.net/)
 
+### NetLogo Export
+
+Exporting NetLogo World from NetLogo is straight forward:
+
+1. Open NetLogo
+2. Load NetLogo model
+3. Execute it and stop in the moment you want to take snapshopt
+4. Go to the menu and choose: File > Export > Export world ...
+5. Save file
+    1. The best place to save your file is into the data folder of the folder containing the **NetLogoVisualConversiontool** tool
+    2. If you stored it to the ***data*** folder and named it `world.csv` then you can convert it by passing ` --filein "data/world.csv"` to the tool
+
 ### Conversion
 
-You can download script by clicking on **ZIP** button on the top of the page or simple following the link:
+You can download the **NetLogoVisualConversiontool** tool by clicking on the **ZIP** button on the top of the page or simple following the link:
 
 [Download link](https://github.com/mprinc/NetLogoVisualConversion/archive/master.zip)
 
 after downloading NetLogoVisualConversion tool
 1. unpack it
 2. go to shell and 
-3. navigate to the folder containing unpacked tool
+3. navigate to the folder containing unpacked tool (stay in it, do not go to the src folder)
 
 run the tool in the following way:
 
