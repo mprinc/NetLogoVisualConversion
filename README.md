@@ -21,7 +21,7 @@ There is a way to export your NetLogo network through [nw netlogo extension](htt
 * position of turtles/nodes is "random"
 * colors are not preserved
 * additional parameters stored in turtles, links are not preserved
-* etc
+* etc...
 
 ## WHY
 
