@@ -1,0 +1,8 @@
+python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ignore true --coord_multiplyer 10 \
+    --node-name-prefix "N_" --filein "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/Final Project - Sasha Rudan world - 1.csv" \
+    --fileout "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/Final Project - Sasha Rudan world - 1.graphml"
+
+python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ignore true --coord_multiplyer 10 \
+    --node-name-prefix "N_" --filein "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/Final Project - Sasha Rudan world - 2.csv" \
+    --fileout "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/Final Project - Sasha Rudan world - 2.graphml"
+

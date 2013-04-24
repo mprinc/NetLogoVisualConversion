@@ -7,7 +7,21 @@ class ImportNetLogoWorld(object):
     TYPE_TURTLES = "TURTLES";
     TYPE_LINKS = "LINKS";
     TYPE_PATCHES = "PATCHES";
+    PARAMS_TURTLES = ['who', 'color', 'heading', 'xcor', 'ycor', 'shape', 'label', 'label-color', 'breed', 'hidden?', 'size', 'pen-size', 'pen-mode'];
+    PARAMS_TURTLES_EXTRA = ['calculation_actor_1', 'calculation_actor_2', 'calculation_actor_3'];
+    PARAMS_TURTLES_FORBIDDEN = ['id', 'name'];
+    PARAMS_LINKS_EXTRA = ['calculation_fs_1', 'calculation_fs_2', 'calculation_fs_3', \
+                          'calculation_fs_1-end1', 'calculation_fs_2-end1', 'calculation_fs_3-end1', \
+                          'calculation_fs_1-end2', 'calculation_fs_2-end2', 'calculation_fs_3-end2'];
     
+    @staticmethod
+    def getElementIndexInList(element, list_element):
+        try:
+            index_element = list_element.index(element)
+            return index_element
+        except ValueError:
+            return -1
+        
     def __init__(self):
         print("ImportNetLogoWorld created");
         self.fileNameIn = None;
@@ -38,9 +52,17 @@ class ImportNetLogoWorld(object):
         # get turtles from csv table and push them in NetLogo world
         turtleStream = self.textDemultiplexer.getStream(ImportNetLogoWorld.TYPE_TURTLES);
         turtlesReader = csv.DictReader(turtleStream);
+        
         for row in turtlesReader:
+            additionalParams = TextDemultiplexer.newDict();
+            for columnName in row.keys():
+                #if( (0 > ImportNetLogoWorld.getElementIndexInList(columnName, ImportNetLogoWorld.PARAMS_TURTLES)) and \
+                #   (0 > ImportNetLogoWorld.getElementIndexInList(columnName, ImportNetLogoWorld.PARAMS_TURTLES_FORBIDDEN))):
+                if(0 <= ImportNetLogoWorld.getElementIndexInList(columnName, ImportNetLogoWorld.PARAMS_TURTLES_EXTRA) ):
+                    additionalParams[columnName] = row[columnName];
+                
             self.netLogoWorld.addTurtleParams(row['who'], row['color'], row['heading'], row['xcor'], row['ycor'], row['shape'], row['label'], \
-                                              row['label-color'], row['breed'], row['hidden?'], row['size'], row['pen-size'], row['pen-mode']);
+                                              row['label-color'], row['breed'], row['hidden?'], row['size'], row['pen-size'], row['pen-mode'], additionalParams);
         self.netLogoWorld.allTurtlesEntered();
         print('Turtle 0 :%s' % (str(self.netLogoWorld.turtles[0])));
 
@@ -48,8 +70,13 @@ class ImportNetLogoWorld(object):
         linksStream = self.textDemultiplexer.getStream(ImportNetLogoWorld.TYPE_LINKS);
         linksReader = csv.DictReader(linksStream);
         for row in linksReader:
+            additionalParams = TextDemultiplexer.newDict();
+            for columnName in row.keys():
+                if(0 <= ImportNetLogoWorld.getElementIndexInList(columnName, ImportNetLogoWorld.PARAMS_LINKS_EXTRA) ):
+                    additionalParams[columnName] = row[columnName];
+                
             self.netLogoWorld.addLinkParams(row['end1'], row['end2'], row['color'], row['label'], row['label-color'], row['hidden?'], row['breed'], \
-                                              row['thickness'], row['shape'], row['tie-mode']);
+                                              row['thickness'], row['shape'], row['tie-mode'], additionalParams);
         print('Link 0 :%s' % (str(self.netLogoWorld.links[0])));
         print('Link 0->0 :%s' % (str(self.netLogoWorld.linksMatrix[0][0])));
         print('Link 0->1 :%s' % (str(self.netLogoWorld.linksMatrix[0][1])));

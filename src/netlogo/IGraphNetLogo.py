@@ -29,8 +29,13 @@ class IGraphNetLogo(object):
         self.graph.add_vertices(len(self.netLogoWorld.turtles));
         turtle = Turtle();
         i = 0;
-        for turtle in self.netLogoWorld.turtles:            
-            self.graph.vs[i]['id'] = turtle.who;
+        for turtle in self.netLogoWorld.turtles:
+            print("Turtle: who=%d, label=%s" %(turtle.who, turtle.label))
+            # We cannot use id:
+            #    self.graph.vs[i]['id'] = turtle.who;
+            # it was necesarry to add name to be able to refer to names of edges when we are adding edges later
+            # that is only possible way, since vertex ids (turtles who) are not necessarily starting from 0, and igrah insist on 0 and non-sparce vertices ids
+            self.graph.vs[i]['name'] = str(turtle.who);
             self.graph.vs[i]['size'] = turtle.size * nodeSizeMultiplyer;
             rgbColor = NetLogoWorld.colorNetlotoToRgb(turtle.color);
             self.graph.vs[i]['r'] = rgbColor[0];
@@ -43,13 +48,27 @@ class IGraphNetLogo(object):
             else:
                 self.graph.vs[i]['label'] = turtle.label;
 
+            #self.graph.vs[i]['hophop'] = 'YESSS!!!';
+
+            # adding additional non-recognized columns
+            #print "keys:%s " %(turtle.additionalParams.keys());      
+            for columnName in turtle.additionalParams.keys():
+                self.graph.vs[i][columnName] = turtle.additionalParams[columnName];
+
             i =i+1;
 
         # populating edges nodes from links
         link = Link();
         i = 0;
         for link in self.netLogoWorld.links:            
-            self.graph.add_edges([(link.end1, link.end2)]);
+            print("link.end1 = %s, link.end2=%s" % (str(link.end1), str(link.end2)));
+            #print self.graph;
+            #print self.graph.get_edgelist();
+            # we cannot add by integers
+            #    self.graph.add_edges([(link.end1, link.end2)]);
+            # because, that is recognized as igraph's vertex IDs, which do not need to match NetLogo turtle WHOs (if they do not start from 0)
+            # There fore we need to refer by vertex names, and to do that we need to provide .add_edges() with strings instead of integers
+            self.graph.add_edges([(str(link.end1), str(link.end2))]);
             self.graph.es[i]['Edge Id'] = link.end1 * 1000 + link.end2;
             if(link.label == None or link.label == ""):
                 self.graph.es[i]['Edge Label'] = self.graph.es[i]['label'] = "%d-%d" % (link.end1, link.end2);
@@ -57,6 +76,11 @@ class IGraphNetLogo(object):
                 self.graph.es[i]['Edge Label'] = self.graph.es[i]['label'] = turtle.label;
             if(not edgeWeightIgnore):
                 self.graph.es[i]['weight'] = link.thickness*edgeWeightMultiplyer;
+            
+            #print link.additionalParams.keys();
+            for columnName in link.additionalParams.keys():
+                self.graph.es[i][columnName] = link.additionalParams[columnName];
+
             i =i+1;
 
         igraph.summary(self.graph);

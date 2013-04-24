@@ -12,6 +12,7 @@ class Link(object):
         self.thickness = None;
         self.shape = None;
         self.tieMode = None;
+        self.additionalParams = None;
     
     # readable version
     def __str__(self):

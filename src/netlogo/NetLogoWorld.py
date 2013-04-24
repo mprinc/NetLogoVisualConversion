@@ -39,7 +39,7 @@ class NetLogoWorld(object):
             colorCoef = netLogoColorOffset/5.0;
             colorRgb = [color + (255-color)*colorCoef for color in colorRgbMiddle];
             
-        print ("netlogoColor=%f, colorIndex=%d, netLogoColorOffset=%f, colorRgb=%s" % (netlogoColor, colorIndex, netLogoColorOffset, str(colorRgb)));
+        #print ("netlogoColor=%f, colorIndex=%d, netLogoColorOffset=%f, colorRgb=%s" % (netlogoColor, colorIndex, netLogoColorOffset, str(colorRgb)));
         return colorRgbMiddle;
 
     def __init__(self):
@@ -70,7 +70,7 @@ class NetLogoWorld(object):
             self.maxTurtleWho = turtle.who;
         return turtle;
 
-    def addTurtleParams(self, who, color, heading, xcor, ycor, shape, label, labelColor, breed, isHidden, size, penSize, penMode):
+    def addTurtleParams(self, who, color, heading, xcor, ycor, shape, label, labelColor, breed, isHidden, size, penSize, penMode, additionalParams):
         rex_string = re.compile(r'\"(.*)\"');
 
         turtle = Turtle();
@@ -79,6 +79,8 @@ class NetLogoWorld(object):
         turtle.heading = heading;
         turtle.xcor = float(xcor);
         turtle.ycor = float(ycor);
+        
+        turtle.additionalParams = additionalParams;
 
         match = rex_string.search(shape);
         if(match != None): turtle.shape = match.group(1);
@@ -111,9 +113,9 @@ class NetLogoWorld(object):
         self.linksMatrix[link.end1][link.end2] = link;
         return link;
     
-    def addLinkParams(self, end1, end2, color, label, labelColor, isHidden, breed, thickness, shape, tieMode):
+    def addLinkParams(self, end1, end2, color, label, labelColor, isHidden, breed, thickness, shape, tieMode, additionalParams):
         link = Link();
-        rex_who = re.compile(r'\{turtle\s+(\d+)\}');
+        rex_who = re.compile(r'\{\S*\s+(\d+)\}');
 
         rex_string = re.compile(r'\"(.*)\"');
 
@@ -126,6 +128,7 @@ class NetLogoWorld(object):
         else: link.end2 = int(end2);
         
         link.color = float(color);
+        link.additionalParams = additionalParams;
 
         match = rex_string.search(label);
         if(match != None): link.label = match.group(1);

@@ -15,6 +15,7 @@ class Turtle(object):
         self.size = None;
         self.penSize = None;
         self.penMode = None;
+        self.additionalParams = None;
     
     # readable version
     def __str__(self):
