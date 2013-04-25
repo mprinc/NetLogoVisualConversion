@@ -6,3 +6,30 @@ python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ign
     --node-name-prefix "N_" --filein "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/Final Project - Sasha Rudan world - 2.csv" \
     --fileout "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/Final Project - Sasha Rudan world - 2.graphml"
 
+python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ignore true --coord_multiplyer 10 \
+    --node-name-prefix "N_" --filein "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/Final Project - Sasha Rudan world - 3.csv" \
+    --fileout "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/Final Project - Sasha Rudan world - 3.graphml"
+
+python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ignore true --coord_multiplyer 10 \
+    --node-name-prefix "N_" --filein "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/O1 - world - clean.csv" \
+    --fileout "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/O1 - world.graphml" \
+    --node-extra-params "popularity:float, calculation_actor_1:float" \
+    --edge-extra-params "calculation_fs_1:float, calculation_fs_1-end1:float, calculation_fs_1-end2:float"
+    
+python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ignore true --coord_multiplyer 10 \
+    --node-name-prefix "N_" --filein "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/O2 - world - clean.csv" \
+    --fileout "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/O2 - world.graphml" \
+    --node-extra-params "popularity:float, calculation_actor_1:float" \
+    --edge-extra-params "calculation_fs_1:float, calculation_fs_1-end1:float, calculation_fs_1-end2:float"
+    
+python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ignore true --coord_multiplyer 10 \
+    --node-name-prefix "N_" --filein "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/O3 - world - clean.csv" \
+    --fileout "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/O3 - world.graphml" \
+    --node-extra-params "popularity:float, calculation_actor_1:float" \
+    --edge-extra-params "calculation_fs_1:float, calculation_fs_1-end1:float, calculation_fs_1-end2:float"
+    
+python src/convert.py --phase convert --node_size_multiplyer 5 --edge_weight_ignore true --coord_multiplyer 10 \
+    --node-name-prefix "N_" --filein "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/Sasha/O1 - world - friendship labels - clean.csv" \
+    --fileout "/Users/mprinc/Dropbox/Misc (S&S)/learn/SNA/course/Final Project/O1 - world - friendship labels - clean.graphml" \
+    --node-extra-params "popularity:float, calculation_actor_1:float" \
+    --edge-extra-params "calculation_fs_1:float, calculation_fs_1-end1:float, calculation_fs_1-end2:float"

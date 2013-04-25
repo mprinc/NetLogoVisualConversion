@@ -30,7 +30,7 @@ class IGraphNetLogo(object):
         turtle = Turtle();
         i = 0;
         for turtle in self.netLogoWorld.turtles:
-            print("Turtle: who=%d, label=%s" %(turtle.who, turtle.label))
+            #print("Turtle: who=%d, label=%s" %(turtle.who, turtle.label))
             # We cannot use id:
             #    self.graph.vs[i]['id'] = turtle.who;
             # it was necesarry to add name to be able to refer to names of edges when we are adding edges later
@@ -51,17 +51,25 @@ class IGraphNetLogo(object):
             #self.graph.vs[i]['hophop'] = 'YESSS!!!';
 
             # adding additional non-recognized columns
-            #print "keys:%s " %(turtle.additionalParams.keys());      
+            #print "keys:%s " %(turtle.additionalParams.keys());
+            print(turtle.additionalParams.keys())
             for columnName in turtle.additionalParams.keys():
-                self.graph.vs[i][columnName] = turtle.additionalParams[columnName];
-
+                columnType = turtle.columnTypes[columnName];
+                print("columnName=%s, columnType=%s, value=%s" %(columnName, columnType, turtle.additionalParams[columnName]));
+                
+                if(columnType == "string"):
+                    self.graph.vs[i][columnName] = str(turtle.additionalParams[columnName]);
+                elif(columnType == "int"):
+                    self.graph.vs[i][columnName] = int(turtle.additionalParams[columnName]);
+                elif(columnType == "float"):
+                    self.graph.vs[i][columnName] = float(turtle.additionalParams[columnName]);
             i =i+1;
 
         # populating edges nodes from links
         link = Link();
         i = 0;
         for link in self.netLogoWorld.links:            
-            print("link.end1 = %s, link.end2=%s" % (str(link.end1), str(link.end2)));
+            #print("link.end1 = %s, link.end2=%s" % (str(link.end1), str(link.end2)));
             #print self.graph;
             #print self.graph.get_edgelist();
             # we cannot add by integers
@@ -77,10 +85,18 @@ class IGraphNetLogo(object):
             if(not edgeWeightIgnore):
                 self.graph.es[i]['weight'] = link.thickness*edgeWeightMultiplyer;
             
+            print(link.additionalParams.keys())
             #print link.additionalParams.keys();
             for columnName in link.additionalParams.keys():
-                self.graph.es[i][columnName] = link.additionalParams[columnName];
-
+                columnType = link.columnTypes[columnName];
+                print("columnName=%s, columnType=%s, value=%s" %(columnName, columnType, link.additionalParams[columnName]));
+                
+                if(columnType == "string"):
+                    self.graph.es[i][columnName] = str(link.additionalParams[columnName]);
+                elif(columnType == "int"):
+                    self.graph.es[i][columnName] = int(link.additionalParams[columnName]);
+                elif(columnType == "float"):
+                    self.graph.es[i][columnName] = float(link.additionalParams[columnName]);
             i =i+1;
 
         igraph.summary(self.graph);

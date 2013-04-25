@@ -1,3 +1,4 @@
+from text.TextDemultiplexer import TextDemultiplexer
 class Turtle(object):
 
     def __init__(self):
@@ -15,7 +16,8 @@ class Turtle(object):
         self.size = None;
         self.penSize = None;
         self.penMode = None;
-        self.additionalParams = None;
+        self.additionalParams = TextDemultiplexer.newDict();
+        self.columnTypes = TextDemultiplexer.newDict();
     
     # readable version
     def __str__(self):

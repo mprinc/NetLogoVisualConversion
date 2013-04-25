@@ -5,7 +5,7 @@ def new_dict(): return defaultdict(new_dict)
 
 class StringLinesIterator(object):
     def __init__(self):
-        print("StringLinesIterator created");
+        #print("StringLinesIterator created");
         self.lines = [];
         self.lineIndex = -1;
 

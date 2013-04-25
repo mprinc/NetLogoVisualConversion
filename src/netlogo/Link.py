@@ -1,3 +1,4 @@
+from text.TextDemultiplexer import TextDemultiplexer
 class Link(object):
 
     def __init__(self):
@@ -12,7 +13,8 @@ class Link(object):
         self.thickness = None;
         self.shape = None;
         self.tieMode = None;
-        self.additionalParams = None;
+        self.additionalParams = TextDemultiplexer.newDict();
+        self.columnTypes = TextDemultiplexer.newDict();
     
     # readable version
     def __str__(self):

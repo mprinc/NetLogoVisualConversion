@@ -70,7 +70,7 @@ class NetLogoWorld(object):
             self.maxTurtleWho = turtle.who;
         return turtle;
 
-    def addTurtleParams(self, who, color, heading, xcor, ycor, shape, label, labelColor, breed, isHidden, size, penSize, penMode, additionalParams):
+    def addTurtleParams(self, who, color, heading, xcor, ycor, shape, label, labelColor, breed, isHidden, size, penSize, penMode, additionalParams, columnTypes):
         rex_string = re.compile(r'\"(.*)\"');
 
         turtle = Turtle();
@@ -81,6 +81,7 @@ class NetLogoWorld(object):
         turtle.ycor = float(ycor);
         
         turtle.additionalParams = additionalParams;
+        turtle.columnTypes = columnTypes;
 
         match = rex_string.search(shape);
         if(match != None): turtle.shape = match.group(1);
@@ -113,7 +114,7 @@ class NetLogoWorld(object):
         self.linksMatrix[link.end1][link.end2] = link;
         return link;
     
-    def addLinkParams(self, end1, end2, color, label, labelColor, isHidden, breed, thickness, shape, tieMode, additionalParams):
+    def addLinkParams(self, end1, end2, color, label, labelColor, isHidden, breed, thickness, shape, tieMode, additionalParams, columnTypes):
         link = Link();
         rex_who = re.compile(r'\{\S*\s+(\d+)\}');
 
@@ -129,6 +130,7 @@ class NetLogoWorld(object):
         
         link.color = float(color);
         link.additionalParams = additionalParams;
+        link.columnTypes = columnTypes;
 
         match = rex_string.search(label);
         if(match != None): link.label = match.group(1);
